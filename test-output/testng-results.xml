@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-29T17:32:10 IST" name="Default suite" finished-at="2022-10-29T17:33:12 IST" duration-ms="61647">
+    <groups>
+    </groups>
+    <test started-at="2022-10-29T17:32:10 IST" name="Default test" finished-at="2022-10-29T17:33:12 IST" duration-ms="61647">
+      <class name="Module_Login1_TestClass.OrangeHRM_TestNG_TestClass">
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:Module_Login1_TestClass.OrangeHRM_TestNG_TestClass@1fa268de]" started-at="2022-10-29T17:32:11 IST" name="OpenBrowser" finished-at="2022-10-29T17:32:41 IST" duration-ms="30577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method is-config="true" signature="Login()[pri:0, instance:Module_Login1_TestClass.OrangeHRM_TestNG_TestClass@1fa268de]" started-at="2022-10-29T17:32:41 IST" name="Login" finished-at="2022-10-29T17:32:42 IST" duration-ms="1124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="VerifyUsername()[pri:1, instance:Module_Login1_TestClass.OrangeHRM_TestNG_TestClass@1fa268de]" started-at="2022-10-29T17:32:42 IST" name="VerifyUsername" finished-at="2022-10-29T17:33:02 IST" duration-ms="20077" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUsername -->
+        <test-method is-config="true" signature="Logout(org.testng.ITestResult)[pri:0, instance:Module_Login1_TestClass.OrangeHRM_TestNG_TestClass@1fa268de]" started-at="2022-10-29T17:33:02 IST" name="Logout" finished-at="2022-10-29T17:33:04 IST" duration-ms="1865" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyUsername status=SUCCESS method=OrangeHRM_TestNG_TestClass.VerifyUsername()[pri:1, instance:Module_Login1_TestClass.OrangeHRM_TestNG_TestClass@1fa268de] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method is-config="true" signature="Login()[pri:0, instance:Module_Login1_TestClass.OrangeHRM_TestNG_TestClass@1fa268de]" started-at="2022-10-29T17:33:04 IST" name="Login" finished-at="2022-10-29T17:33:05 IST" duration-ms="362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="VerifyTitle()[pri:2, instance:Module_Login1_TestClass.OrangeHRM_TestNG_TestClass@1fa268de]" started-at="2022-10-29T17:33:05 IST" name="VerifyTitle" finished-at="2022-10-29T17:33:09 IST" duration-ms="3948" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTitle -->
+        <test-method is-config="true" signature="Logout(org.testng.ITestResult)[pri:0, instance:Module_Login1_TestClass.OrangeHRM_TestNG_TestClass@1fa268de]" started-at="2022-10-29T17:33:09 IST" name="Logout" finished-at="2022-10-29T17:33:10 IST" duration-ms="1179" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyTitle status=SUCCESS method=OrangeHRM_TestNG_TestClass.VerifyTitle()[pri:2, instance:Module_Login1_TestClass.OrangeHRM_TestNG_TestClass@1fa268de] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:Module_Login1_TestClass.OrangeHRM_TestNG_TestClass@1fa268de]" started-at="2022-10-29T17:33:10 IST" name="CloseBrowser" finished-at="2022-10-29T17:33:12 IST" duration-ms="1991" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- Module_Login1_TestClass.OrangeHRM_TestNG_TestClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
